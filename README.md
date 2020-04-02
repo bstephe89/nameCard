@@ -1,6 +1,7 @@
-Understanding Selectors - Stretching Your Thoughts
+Name Card - Stretching Your Thoughts
 
-Why are ID selectors a bad idea?
-    I believe ID selectors are a bad idea because they have the highest specificity and can only be used once. Different elements within the same document cannot share the same ID, it is unique to one element. Anything specified for that ID number cannot be overriden unless using !important.
-What selectors should you prefer when working with CSS?
-    The class selector is preferred when working with CSS. The class selector can be reused across multiple elements. Additionally, one element can have multiple classes. This allows for more flexibility and less CSS that needs to be written.
+Which web event did you hook into to update the display name? I used the addEventListener method to update the display name.
+
+Where in your HTML did you link to your JavaScript file? Are there better places? What's the best place? I linked at the bottom of the file, inside the body but after all other elements. I tried linking at the top in the head tag but then the Javascript was loading before the HTML body and preventing the event handler from working. The form was following the action listed in the tag versus being intercepted by the event listener. I am not sure if there is a better place to link the javascript file.
+
+Why is it best practice to store your CSS/JS in external files rather than in your HTML file? Storing the CSS and Javascript in separate files is more organized and easier to read. HTML, styling, and coding can already be very lengthy files, so it is easier to understand and update/edit the files if they are separated into their own files and linked.
